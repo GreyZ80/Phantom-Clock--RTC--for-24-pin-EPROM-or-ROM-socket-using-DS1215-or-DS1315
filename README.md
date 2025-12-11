@@ -69,6 +69,7 @@ J4 in the schematic brings out A11 of the EPROM. This is only needed when a 4K E
 
 The PCB uses two pin header rows to connect to the original 24 pin socket for the EPROM. The pins of these are slightly thinner to fit the socket and have a slightly broader base. In order to minimise height, I used larger hole for the pins which allow the base to fall inside of the PCB board. Within Kicad a modification to the footprint is made. Pad diameter 2.3mm, hole diameter 1.9mm.\
 When soldering the header, fixate them using a breadbord or a 24 pin machined socket.
+Board can be ordered from PCBWAY.
 
 <img width="100"  alt="Pin modification" src="https://github.com/user-attachments/assets/30f198d3-6715-4644-84d4-9cf801729044" />
 <img width="175"  alt="Pin fixation" src="https://github.com/user-attachments/assets/b7c87914-1e98-40cb-a534-51978a20e64f" />
