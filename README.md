@@ -8,7 +8,7 @@
 This is a description of the little 3x3 cm board that I designed for my **TRS-80 Model II**. Also here is the executable for the Model II that sets and reads the clock chip.
 This means I used a 24 pin socket, compatible with 2716 and 2732 EPROM. A larger socket (28 pin) is beyond the scope of this project.\
 The board creates the possibility to combine a DS1215 or DS1315 with the existing boot ROM in U11.\
-The DS1215 is the chip that is used in the DS1216 SmartWatch DIP sockets. The DS1315 is the successor with the same functionality. Either chip can be used. For the DS1315 use the 5 Volt version DS1315-5+ or DS1315N-5+. The reference of DS1315 includes DS1215. Buy the DS1215 or DS1315 chip from a trusted source. Or accept the risk of a "no-good" chip. After testing 15 chips, I found 1 that did not work.\
+The DS1215 (DALLAS SEMICONDUCTOR) is the chip that is used in the DS1216 SmartWatch DIP sockets. The DS1315 by MAXIM is the successor with the same functionality. Either chip can be used. For the DS1315 use the 5 Volt version DS1315-5+ or DS1315N-5+. The reference of DS1315 includes DS1215. Buy the DS1215 or DS1315 chip from a trusted source. Or accept the risk of a "no-good" chip. After testing 15 chips, I found 1 that did not work.\
 The broken DS1315 resulted in a partially garbled boot screen, which is the same as when no chip is mounted on the little board.
 
 For the Model 1 the socket to place the board is Z34. For the model 3 use socket Z106 (ROM C). For the NGA Model 4 use socket U4 (ROM C).
@@ -69,7 +69,7 @@ J4 in the schematic brings out A11 of the EPROM. This is only needed when a 4K E
 
 The PCB uses two pin header rows to connect to the original 24 pin socket for the EPROM. The pins of these are slightly thinner to fit the socket and have a slightly broader base. In order to minimise height, I used larger hole for the pins which allow the base to fall inside of the PCB board. Within Kicad a modification to the footprint is made. Pad diameter 2.3mm, hole diameter 1.9mm.\
 When soldering the header, fixate them using a breadbord or a 24 pin machined socket.
-Board can be ordered from PCBWAY.
+Board can be ordered from PCBWAY (<a href="https://www.pcbway.com/project/shareproject/Real_Time_Clock_for_TRS_80_Model_II_using_DS1215_DS1315_48f40de7.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>.
 
 <img width="100"  alt="Pin modification" src="https://github.com/user-attachments/assets/30f198d3-6715-4644-84d4-9cf801729044" />
 <img width="175"  alt="Pin fixation" src="https://github.com/user-attachments/assets/b7c87914-1e98-40cb-a534-51978a20e64f" />
