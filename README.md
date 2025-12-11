@@ -1,4 +1,4 @@
-# Phantom clock for the TRS-80 Model II (and other)
+# Phantom clock (RTC) for the TRS-80 Model II (and other)
 
 ***
 <img width="600" alt="Finished board" src="https://github.com/user-attachments/assets/abb936c1-b146-49c4-b076-ee6254830841" />
