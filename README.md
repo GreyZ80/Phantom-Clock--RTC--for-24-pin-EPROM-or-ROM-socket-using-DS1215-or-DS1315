@@ -119,7 +119,7 @@ When height of the assembly is an issue (which it is in a model II), you have to
 >[!important]
 >**On board programming.**\
 >Disconnect the backup battery.\
->Place a wire bridge connecting pin 10 and 11.
+>Place a wire bridge connecting pin 10 and 11 of the RTC.\
 >When the DS1315 is soldered in, connect pins 10 and 11 using 2 test clips.
 
 For looks you can decide to use an EEPROM instead of a UV eraseable. Note that 32Kbit (4Kx8) EEPROMs do not exist. When testing the EPROM on the board without the DS1315 mounted, pins 10 (CEO*) and 11 (CEI*) of the DS1315 socket need to be bridged.
@@ -161,7 +161,7 @@ Steps to perform:
 - Connect the battery. Pay attention to the plus and minus connections.
 - Place the CPU board back in the Model II. Do not yet connect the reset and serial ports flat cable.
 
-When the board is correctly seated, a first power test can be done. Without floppy mounted, the system should show the "Insert floppy" screen. When the system does not boot or shows a distorted boot screen, power down and check your work.\
+When the board is correctly seated, a first power test can be done. Without floppy mounted, the system should show the "Insert floppy" screen. When the system does not boot or shows a distorted boot screen, power down and check your work.
 
 - Power down the computer and connect the flat cable and reset cable.
 - Place the bracket that holds the boards in place.
