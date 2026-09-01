@@ -19,4 +19,4 @@ When CLK2 reports that the SmartWatch is not set use:
 When CLK2 reports that the SmartWatch is not found, you will have to add the SmartWatch to your system.\
 A low back-up battery voltage (<2.8V) can also cause the SmartWatch not to be found.
 
-Remember to run "CLK2 O" to turn off the RTC when not used for a longer time. Keeping the RTC running might drain the battery.
+Remember to run "clk2 o" to turn off the RTC when not used for a longer time. Keeping the RTC running might drain the battery.
