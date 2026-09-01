@@ -16,4 +16,7 @@ You can turn off the auto execution by typing:
 When CLK2 reports that the SmartWatch is not set use:
 - clk2 s 1033000901251   (Setting time and date to 10:33:00 09/01/25 Sunday)
 
-When CLK2 reports that the SmartWatch is not found, you will have to the SmartWatch to your system.
+When CLK2 reports that the SmartWatch is not found, you will have to add the SmartWatch to your system.\
+A low back-up battery voltage (<2.8V) can also cause the SmartWatch not to be found.
+
+Remember to run "CLK2 O" to turn off the RTC when not used for a longer time. Keeping the RTC running might drain the battery.
